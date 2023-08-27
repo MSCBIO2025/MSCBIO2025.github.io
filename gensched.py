@@ -78,9 +78,9 @@ def linkstr(links):
     ret = ''
     for l in links:
         if type(l) == str: #assume slides
-            ret += '<a href="notes/%s.slides.html">slides</a>&nbsp;' % l
+            ret += '<a href="notes/%s.slides.html" target="_blank">slides</a>&nbsp;' % l
         else: # assume tuple of name,link
-            ret += ' <a href="%s">%s</a>&nbsp;' % (l[1],l[0])
+            ret += ' <a href="%s" target="_blank">%s</a>&nbsp;' % (l[1],l[0])
     return ret
 
 day = start
