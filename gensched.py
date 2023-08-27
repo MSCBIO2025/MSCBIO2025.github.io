@@ -96,7 +96,7 @@ while day < end and lecpos < len(lectures):
         if day in noclass: #no assignment on holiday
             assignpos -= 1
         else:
-            print ("<tr class='A'><td>%s</td><td colspan=2>Assignment %d Due 11:59pm</td><td></td></tr>" % (day.strftime('%-m/%-d'), assignpos))
+            print ("<tr class='A'><td>%s</td><td></td><td colspan=1>Assignment %d Due 11:59pm</td><td></td></tr>" % (day.strftime('%-m/%-d'), assignpos))
     assignpos += 1
     if day not in noclass:
         lecname = lectures[lecpos][0]
@@ -107,7 +107,7 @@ while day < end and lecpos < len(lectures):
         print ("<td style='display: inline-block; width: 200px;'>%s</td>" % linkstr(links))
         lecpos += 1
     else:
-        print ("<tr class='B'><td>%s</td><td colspan=2>%s</td><td></td></tr>" % (day.strftime('%-m/%-d'), noclass[day]))
+        print ("<tr class='B'><td>%s</td><td></td><td colspan=1>%s</td><td></td></tr>" % (day.strftime('%-m/%-d'), noclass[day]))
         
     if lecpos >= len(lectures):
         break
@@ -122,7 +122,7 @@ while day < end and lecpos < len(lectures):
         print ("<td style='display: inline-block; width: 200px;'>%s</td>" % linkstr(links))
         lecpos += 1
     else:
-        print( "<tr class='B endweek'><td>%s</td><td colspan=2>%s</td><td></td></tr>" % (day.strftime('%-m/%-d'), noclass[day]))
+        print( "<tr class='B endweek'><td>%s</td><td></td><td colspan=1>%s</td><td></td></tr>" % (day.strftime('%-m/%-d'), noclass[day]))
   
     if lecpos >= len(lectures):
         break        
