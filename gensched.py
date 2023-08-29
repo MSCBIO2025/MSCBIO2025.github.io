@@ -13,7 +13,7 @@ noclass = {datetime.date(2023,11,21): "Thanksgiving Break",
 
 lectures = [
 ("Introduction/Linux Commandline Basics",'DK',[('intro','notes/intro2023.pdf'),'bash',('reference','notes/bash_cheatsheet.pdf')]),
-("Linux Commandline File Processing",'DK',[]),
+("Linux Commandline File Processing",'DK',['bash2']),
 ("Getting Started with Python",'JB',[]),
 ("Control Flow and Basic Data Visualization with <a href='http://matplotlib.org/'>matplotlib</a>",'JB',[]),
 ("<a href='http://www.numpy.org/'>numpy</a> Arrays and Function Fitting",'JB',[]),
