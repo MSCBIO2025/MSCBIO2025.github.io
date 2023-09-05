@@ -15769,9 +15769,11 @@ awk -F, <span class="s1">&#39;NR &gt; 1 &amp;&amp; $3 &gt; $2 &amp;&amp; $4 &gt;
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="More">More<a class="anchor-link" href="#More">&#182;</a></h1><ul>
 <li>Create a pdb file from 1shs that consists of only ATOM records.</li>
-<li>Create a pdb with only ATOM records from chain A.</li>
+<li>Create a pdb with only ATOM records from chain A. (The chain is the fifth column* of an atom record)</li>
 <li>How many carbon atoms are in this file?</li>
+<li>Create a pdb with only the ATOM records from chain G, but with the chain renamed to be A.</li>
 </ul>
+<p>*PDB files are actually fixed files, not space deliminated, but with this file you can ignore that distinction.</p>
 
 </div>
 </div>
@@ -15791,6 +15793,7 @@ grep ^ATOM 1shs.pdb <span class="p">|</span> awk <span class="s1">&#39;$5 == &qu
 grep ^ATOM 1shs.pdb <span class="p">|</span> awk <span class="s1">&#39; substr($0,22,1) == &quot;A&quot; {print $0}&#39;</span> &gt; newpdb.pdb
 
 grep ^ATOM 1shs.pdb <span class="p">|</span> awk <span class="s1">&#39; substr($0,22,1) == &quot;A&quot; {print $0}&#39;</span> <span class="p">|</span> cut -b <span class="m">78</span>- <span class="p">|</span> sort <span class="p">|</span> uniq -c
+grep ^ATOM 1shs.pdb <span class="p">|</span> awk <span class="s1">&#39;$5 == &quot;A&quot; {print $0}&#39;</span> <span class="p">|</span> sed <span class="s1">&#39;s/ G / A /&#39;</span>
 </pre></div>
 
 </div>
