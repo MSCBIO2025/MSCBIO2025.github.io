@@ -7445,6 +7445,127 @@ main {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://code.jquery.com/jquery-3.7.1.min.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://requirejs.org/docs/release/2.3.6/minified/require.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://bits.csb.pitt.edu/asker.js/lib/asker.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="p">.</span><span class="nc">reveal</span><span class="w"> </span><span class="nt">pre</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span><span class="w"> </span><span class="k">overflow-x</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"> </span><span class="k">overflow-y</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;}</span>
+<span class="p">.</span><span class="nc">reveal</span><span class="w"> </span><span class="nt">h1</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">em</span><span class="p">}</span>
+<span class="p">.</span><span class="nc">reveal</span><span class="w"> </span><span class="nt">ol</span><span class="w"> </span><span class="p">{</span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">block</span><span class="p">;}</span>
+<span class="p">.</span><span class="nc">reveal</span><span class="w"> </span><span class="nt">ul</span><span class="w"> </span><span class="p">{</span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">block</span><span class="p">;}</span>
+<span class="p">.</span><span class="nc">reveal</span><span class="w"> </span><span class="p">.</span><span class="nc">slides</span><span class="o">&gt;</span><span class="nt">section</span><span class="o">&gt;</span><span class="nt">section</span><span class="p">.</span><span class="nc">present</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">max-height</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span><span class="w"> </span><span class="k">overflow-y</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;}</span>
+
+<span class="p">.</span><span class="nc">jp-OutputArea-output</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+
+
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">jQuery</span><span class="p">.</span><span class="nx">asker</span><span class="p">);</span>
+<span class="nx">$3Dmolpromise</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span><span class="w"> </span><span class="nx">reject</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">    </span><span class="nx">require</span><span class="p">([</span><span class="s1">'https://3Dmol.org/build/3Dmol.js'</span><span class="p">],</span><span class="w"> </span><span class="kd">function</span><span class="p">(){</span><span class="w">       </span>
+<span class="w">            </span><span class="nx">resolve</span><span class="p">();});</span>
+<span class="p">});</span>
+<span class="nx">require</span><span class="p">([</span><span class="s1">'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.js'</span><span class="p">],</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">Ch</span><span class="p">){</span>
+<span class="w"> </span><span class="nx">Chart</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Ch</span><span class="p">;</span>
+<span class="p">});</span>
+
+<span class="nx">$</span><span class="p">(</span><span class="s1">'head'</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">'&lt;link rel="stylesheet" href="https://bits.csb.pitt.edu/asker.js/themes/asker.default.css" /&gt;'</span><span class="p">);</span>
+
+
+<span class="c1">//the callback is provided a canvas object and data </span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">chartmaker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">canvas</span><span class="p">,</span><span class="w"> </span><span class="nx">labels</span><span class="p">,</span><span class="w"> </span><span class="nx">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">ctx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">$</span><span class="p">(</span><span class="nx">canvas</span><span class="p">).</span><span class="nx">get</span><span class="p">(</span><span class="mf">0</span><span class="p">).</span><span class="nx">getContext</span><span class="p">(</span><span class="s2">"2d"</span><span class="p">);</span>
+<span class="w">     </span><span class="kd">var</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="nx">labels</span><span class="o">:</span><span class="w"> </span><span class="nx">labels</span><span class="p">,</span><span class="w">                     </span>
+<span class="w">    </span><span class="nx">datasets</span><span class="o">:</span><span class="p">[{</span>
+<span class="w">     </span><span class="nx">data</span><span class="o">:</span><span class="w"> </span><span class="nx">data</span><span class="p">,</span>
+<span class="w">     </span><span class="nx">backgroundColor</span><span class="o">:</span><span class="w"> </span><span class="s2">"rgba(150,64,150,0.5)"</span><span class="p">,</span>
+<span class="w">         </span><span class="nx">fillColor</span><span class="o">:</span><span class="w"> </span><span class="s2">"rgba(150,64,150,0.8)"</span><span class="p">,</span><span class="w">    </span>
+<span class="w">  </span><span class="p">}]};</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">myBarChart</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Chart</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,{</span><span class="nx">type</span><span class="o">:</span><span class="s1">'bar'</span><span class="p">,</span><span class="nx">data</span><span class="o">:</span><span class="nx">dataset</span><span class="p">,</span><span class="nx">options</span><span class="o">:</span><span class="p">{</span><span class="nx">legend</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="nx">display</span><span class="o">:</span><span class="kc">false</span><span class="p">},</span>
+<span class="w">        </span><span class="nx">scales</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nx">yAxes</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span>
+<span class="w">                </span><span class="nx">ticks</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nx">min</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}]}}});</span>
+<span class="p">};</span>
+
+<span class="nx">$</span><span class="p">(</span><span class="s2">".jp-InputArea .o:contains(html)"</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">'.jp-InputArea'</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span>
+
+
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+<script src="https://bits.csb.pitt.edu/asker.js/lib/asker.js"></script>
+<style>
+.reveal pre { font-size: 100%; overflow-x: auto; overflow-y: auto;}
+.reveal h1 { font-size: 2em}
+.reveal ol {display: block;}
+.reveal ul {display: block;}
+.reveal .slides>section>section.present { max-height: 100%; overflow-y: auto;}
+
+.jp-OutputArea-output { padding: 0; }
+</style>
+<script>
+console.log(jQuery.asker);
+$3Dmolpromise = new Promise((resolve, reject) => { 
+    require(['https://3Dmol.org/build/3Dmol.js'], function(){       
+            resolve();});
+});
+require(['https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.js'], function(Ch){
+ Chart = Ch;
+});
+
+$('head').append('<link rel="stylesheet" href="https://bits.csb.pitt.edu/asker.js/themes/asker.default.css" />');
+
+
+//the callback is provided a canvas object and data 
+var chartmaker = function(canvas, labels, data) {
+  var ctx = $(canvas).get(0).getContext("2d");
+     var dataset = {labels: labels,                     
+    datasets:[{
+     data: data,
+     backgroundColor: "rgba(150,64,150,0.5)",
+         fillColor: "rgba(150,64,150,0.8)",    
+  }]};
+  var myBarChart = new Chart(ctx,{type:'bar',data:dataset,options:{legend: {display:false},
+        scales: {
+            yAxes: [{
+                ticks: {
+                    min: 0,
+                }
+            }]}}});
+};
+
+$(".jp-InputArea .o:contains(html)").closest('.jp-InputArea').hide();
+
+
+</script>
+</div>
+</div>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7595,7 +7716,7 @@ A:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>4419480512
+<pre>4410958400
 </pre>
 </div>
 </div>
@@ -7622,7 +7743,7 @@ A:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>1024
+<pre>338112
 </pre>
 </div>
 </div>
@@ -10010,7 +10131,7 @@ genfromtxt(fname, dtype=&lt;class 'float'&gt;, comments='#', delimiter=None, ski
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;matplotlib.legend.Legend at 0x16c230ac0&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x138330610&gt;</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
