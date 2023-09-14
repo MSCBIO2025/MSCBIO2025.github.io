@@ -17,7 +17,7 @@ lectures = [
 ("Getting Started with Python",'JB',['pythonintro', ('notebook', 'notes/pythonintro.ipynb')]),
 ("Control Flow and Basic Data Visualization with <a href='http://matplotlib.org/'>matplotlib</a>",'JB',['pyandplot', ('notebook', 'notes/pyandplot.ipynb')]),
 ("<a href='http://www.numpy.org/'>numpy</a> Arrays and Function Fitting",'JB',['numpy', ('notebook', 'notes/numpy.ipynb')]),
-("Systems Biology with <a href='http://pysb.org/'>PySB</a>",'JF',[]),
+("Systems Biology with <a href='http://pysb.org/'>PySB</a>",'JF',['pysb',('notebook', 'notes/pysb.ipynb')]),
 ("Dictionaries and Sets",'JB',[]),
 ("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',[]),
 ("More Sequence Analysis",'JB',[]),
