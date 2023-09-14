@@ -204,4 +204,19 @@ $('head').append(`<style>
 };
 $(".jp-InputArea .o:contains(html)").closest('.jp-InputArea').hide();
 
-  
+//code to work with RISE
+var bobserver = new MutationObserver(function() {
+    console.log('change');
+    if($('body').hasClass('rise-enabled')) {
+         $('.container .input .CodeMirror .cm-operator:contains(%%)+.cm-variable:contains(html)').closest('.input').hide();
+         $('.container .input .CodeMirror .cm-operator:contains(%%)+.cm-variable:contains(html)').closest('.code_cell').css('border','0');
+
+    } else {
+        $('.container .input .CodeMirror .cm-operator:contains(%%)+.cm-variable:contains(html)').closest('.input').show();
+    }
+});
+
+bobserver.observe(document.body, {
+    attributes:    true,
+    attributeFilter: ["class"]
+});  
