@@ -18,7 +18,7 @@ lectures = [
 ("Control Flow and Basic Data Visualization with <a href='http://matplotlib.org/'>matplotlib</a>",'JB',['pyandplot', ('notebook', 'notes/pyandplot.ipynb')]),
 ("<a href='http://www.numpy.org/'>numpy</a> Arrays",'JB',['numpy', ('notebook', 'notes/numpy.ipynb')]),
 ("Systems Biology with <a href='http://pysb.org/'>PySB</a>",'JF',['pysb',('notebook', 'notes/pysb.ipynb')]),
-("Dictionaries and Sets and Function Fitting",'JB',[]),
+("Dictionaries and Sets and Function Fitting",'JB',['numpy2dict', ('notebook', 'notes/numpy2dict.ipynb')]),
 ("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',[]),
 ("More Sequence Analysis",'JB',[]),
 ("EMR with <a href='http://pandas.pydata.org/'>pandas</a>",'JB',[]),
