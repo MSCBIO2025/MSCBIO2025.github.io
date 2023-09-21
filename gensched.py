@@ -19,7 +19,7 @@ lectures = [
 ("<a href='http://www.numpy.org/'>numpy</a> Arrays",'JB',['numpy', ('notebook', 'notes/numpy.ipynb')]),
 ("Systems Biology with <a href='http://pysb.org/'>PySB</a>",'JF',['pysb',('notebook', 'notes/pysb.ipynb')]),
 ("Dictionaries and Sets and Function Fitting",'JB',['numpy2dict', ('notebook', 'notes/numpy2dict.ipynb')]),
-("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',[]),
+("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',['biopython', ('notebook', 'notes/biopython.ipynb')]),
 ("More Sequence Analysis",'JB',[]),
 ("EMR with <a href='http://pandas.pydata.org/'>pandas</a>",'JB',[]),
 ("Structure Analysis with <a href='http://prody.csb.pitt.edu/'>ProDy</a>",'MG',[]),
