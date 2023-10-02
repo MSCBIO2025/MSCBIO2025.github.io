@@ -22,7 +22,7 @@ lectures = [
 ("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',['biopython', ('notebook', 'notes/biopython.ipynb')]),
 ("More Sequence Analysis",'JB',['seqcont', ('notebook', 'notes/seqcont.ipynb')]),
 ("EMR with <a href='http://pandas.pydata.org/'>pandas</a>",'JB',['emr', ('notebook', 'notes/emr.ipynb')]),
-("Structure Analysis with <a href='http://prody.csb.pitt.edu/'>ProDy</a>",'MG',[]),
+("Structure Analysis with <a href='http://prody.csb.pitt.edu/'>ProDy</a>",'MG',['prody1',('notebook','notes/prody1.ipynb')]),
 ("Protein Analysis Continued",'MG',[]),
 ("Molecular Dynamics (<a href='http://www.mdanalysis.org/'>mdanalysis</a>)",'MG',[]),
 ("More Molecular Dynamics",'MG',[]),
