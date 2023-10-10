@@ -14,17 +14,17 @@ noclass = {datetime.date(2023,11,21): "Thanksgiving Break",
 lectures = [
 ("Introduction/Linux Commandline Basics",'DK',[('intro','notes/intro2023.pdf'),'bash',('reference','notes/bash_cheatsheet.pdf')]),
 ("Linux Commandline File Processing",'DK',['bash2']),
-("Getting Started with Python",'JB',['pythonintro', ('notebook', 'notes/pythonintro.ipynb')]),
-("Control Flow and Basic Data Visualization with <a href='http://matplotlib.org/'>matplotlib</a>",'JB',['pyandplot', ('notebook', 'notes/pyandplot.ipynb')]),
-("<a href='http://www.numpy.org/'>numpy</a> Arrays",'JB',['numpy', ('notebook', 'notes/numpy.ipynb')]),
-("Systems Biology with <a href='http://pysb.org/'>PySB</a>",'JF',['pysb',('notebook', 'notes/pysb.ipynb')]),
-("Dictionaries and Sets and Function Fitting",'JB',['numpy2dict', ('notebook', 'notes/numpy2dict.ipynb')]),
-("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',['biopython', ('notebook', 'notes/biopython.ipynb')]),
-("More Sequence Analysis",'JB',['seqcont', ('notebook', 'notes/seqcont.ipynb')]),
-("EMR with <a href='http://pandas.pydata.org/'>pandas</a>",'JB',['emr', ('notebook', 'notes/emr.ipynb')]),
-("Structure Analysis with <a href='http://prody.csb.pitt.edu/'>ProDy</a>",'MG',['prody1',('notebook','notes/prody1.ipynb')]),
-("Protein Analysis Continued",'MG',['prody2',('notebook','notes/prody2.ipynb')]),
-("Molecular Dynamics (<a href='http://www.mdanalysis.org/'>mdanalysis</a>)",'MG',[]),
+("Getting Started with Python",'JB',['pythonintro']),
+("Control Flow and Basic Data Visualization with <a href='http://matplotlib.org/'>matplotlib</a>",'JB',['pyandplot']),
+("<a href='http://www.numpy.org/'>numpy</a> Arrays",'JB',['numpy']),
+("Systems Biology with <a href='http://pysb.org/'>PySB</a>",'JF',['pysb']),
+("Dictionaries and Sets and Function Fitting",'JB',['numpy2dict']),
+("Sequence Analysis with <a href='http://biopython.org/wiki/Biopython'>Biopython</a>",'JB',['biopython']),
+("More Sequence Analysis",'JB',['seqcont']),
+("EMR with <a href='http://pandas.pydata.org/'>pandas</a>",'JB',['emr']),
+("Structure Analysis with <a href='http://prody.csb.pitt.edu/'>ProDy</a>",'MG',['prody1']),
+("Protein Analysis Continued",'MG',['prody2']),
+("Molecular Dynamics (<a href='http://www.mdanalysis.org/'>mdanalysis</a>)",'MG',['mdanalysis']),
 ("More Molecular Dynamics",'MG',[]),
 ("Clustering",'MG',[]),
 ("Regular Expressions",'DK',[]),
@@ -78,7 +78,7 @@ def linkstr(links):
     ret = ''
     for l in links:
         if type(l) == str: #assume slides
-            ret += '<a href="notes/%s.slides.html" target="_blank">slides</a>&nbsp;' % l
+            ret += '<a href="notes/{0}.slides.html" target="_blank">slides</a>&nbsp;<a href="https://nbviewer.org/urls/mscbio2025.net/notes/{0}.ipynb" target="_blank">notebook</a>&nbsp;'.format(l)
         else: # assume tuple of name,link
             ret += ' <a href="%s" target="_blank">%s</a>&nbsp;' % (l[1],l[0])
     return ret
