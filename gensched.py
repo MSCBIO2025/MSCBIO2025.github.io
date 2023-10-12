@@ -25,7 +25,7 @@ lectures = [
 ("Structure Analysis with <a href='http://prody.csb.pitt.edu/'>ProDy</a>",'MG',['prody1']),
 ("Protein Analysis Continued",'MG',['prody2']),
 ("Molecular Dynamics (<a href='http://www.mdanalysis.org/'>mdanalysis</a>)",'MG',['mdanalysis']),
-("More Molecular Dynamics",'MG',[]),
+("More Molecular Dynamics",'MG',['md2']),
 ("Clustering",'MG',[]),
 ("Regular Expressions",'DK',[]),
 ("Web Services and Communication Protocols",'DK',[]),
