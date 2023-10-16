@@ -26,7 +26,7 @@ lectures = [
 ("Protein Analysis Continued",'MG',['prody2']),
 ("Molecular Dynamics (<a href='http://www.mdanalysis.org/'>mdanalysis</a>)",'MG',['mdanalysis']),
 ("More Molecular Dynamics",'MG',['md2']),
-("Clustering",'MG',[]),
+("Clustering",'MG',['clustering']),
 ("Regular Expressions",'DK',[]),
 ("Web Services and Communication Protocols",'DK',[]),
 ("From Data to Model to the World Web Web",'DK',[]),
