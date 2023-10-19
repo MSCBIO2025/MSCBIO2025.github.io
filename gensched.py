@@ -27,7 +27,7 @@ lectures = [
 ("Molecular Dynamics (<a href='http://www.mdanalysis.org/'>mdanalysis</a>)",'MG',['mdanalysis']),
 ("More Molecular Dynamics",'MG',['md2']),
 ("Clustering",'MG',['clustering']),
-("Regular Expressions",'DK',[]),
+("Regular Expressions",'DK',['regex']),
 ("Web Services and Communication Protocols",'DK',[]),
 ("From Data to Model to the World Web Web",'DK',[]),
 ("Cheminformatics (<a href='http://openbabel.org/docs/dev/UseTheLibrary/Python_Pybel.html'>Pybel</a>)",'DK',[]),
