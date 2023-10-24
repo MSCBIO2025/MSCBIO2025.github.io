@@ -28,7 +28,7 @@ lectures = [
 ("More Molecular Dynamics",'MG',['md2']),
 ("Clustering",'MG',['clustering']),
 ("Regular Expressions",'DK',['regex']),
-("Web Services and Communication Protocols",'DK',[]),
+("Web Services and Communication Protocols",'DK',['web']),
 ("From Data to Model to the World Web Web",'DK',[]),
 ("Cheminformatics (<a href='http://openbabel.org/docs/dev/UseTheLibrary/Python_Pybel.html'>Pybel</a>)",'DK',[]),
 ("Dimensionality Reduction",'SU',[]),
