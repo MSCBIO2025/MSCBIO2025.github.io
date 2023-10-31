@@ -30,7 +30,7 @@ lectures = [
 ("Regular Expressions",'DK',['regex']),
 ("Web Services and Communication Protocols",'DK',['web']),
 ("From Data to Model to the World Web Web",'DK',['webprogramming']),
-("Cheminformatics (<a href='http://openbabel.org/docs/dev/UseTheLibrary/Python_Pybel.html'>Pybel</a>)",'DK',[]),
+("Cheminformatics (<a href='http://openbabel.org/docs/dev/UseTheLibrary/Python_Pybel.html'>Pybel</a>)",'DK',['cheminformatics']),
 ("Dimensionality Reduction",'SU',[]),
 ("Machine Learning with <a href='http://scikit-learn.org/stable/'>sklearn</a>",'SU',[]),
 ("Process Control with <a href='https://docs.python.org/3/library/subprocess.html'>subprocess</a>",'DK',[]),
