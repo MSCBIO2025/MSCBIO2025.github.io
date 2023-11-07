@@ -32,7 +32,7 @@ lectures = [
 ("From Data to Model to the World Web Web",'DK',['webprogramming']),
 ("Cheminformatics (<a href='http://openbabel.org/docs/dev/UseTheLibrary/Python_Pybel.html'>Pybel</a>)",'DK',['cheminformatics']),
 ("Dimensionality Reduction",'SU',['dimred']),
-("Machine Learning with <a href='http://scikit-learn.org/stable/'>sklearn</a>",'SU',[]),
+("Machine Learning with <a href='http://scikit-learn.org/stable/'>sklearn</a>",'SU',['machinelearning']),
 ("Process Control with <a href='https://docs.python.org/3/library/subprocess.html'>subprocess</a>",'DK',[]),
 ("Bioimaging I",'SU',[]),
 ("Bioimaging II",'SU',[]),
