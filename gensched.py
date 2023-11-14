@@ -34,7 +34,7 @@ lectures = [
 ("Dimensionality Reduction",'SU',['dimred']),
 ("Machine Learning with <a href='http://scikit-learn.org/stable/'>sklearn</a>",'SU',['machinelearning']),
 ("Process Control with <a href='https://docs.python.org/3/library/subprocess.html'>subprocess</a>",'DK',['subprocess']),
-("Bioimaging I",'SU',[]),
+("Bioimaging I",'SU',['bioimaging']),
 ("Bioimaging II",'SU',[]),
 ("Deep Learning",'SU',[]),
 ("multiprocessing",'DK',[]),
