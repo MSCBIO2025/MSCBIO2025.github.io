@@ -40,9 +40,7 @@ lectures = [
 ("multiprocessing",'DK',[]),
 ("<b>Project Presentations</b>",'',[]),
 ("<b>Project Presentations</b>",'',[]),
-("<b>Project Presentations</b> (if needed)",'',[]),
-("<b>Project Presentations</b> (if needed)",'',[])
-]
+("<b>Movie and Pizza Party?</b>",'',[])]
 
 print ('''
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
