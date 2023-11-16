@@ -35,12 +35,14 @@ lectures = [
 ("Machine Learning with <a href='http://scikit-learn.org/stable/'>sklearn</a>",'SU',['machinelearning']),
 ("Process Control with <a href='https://docs.python.org/3/library/subprocess.html'>subprocess</a>",'DK',['subprocess']),
 ("Bioimaging I",'SU',['bioimaging']),
-("Bioimaging II",'SU',[]),
+("Bioimaging II",'SU',['bioimaging2']),
 ("Deep Learning",'SU',[]),
 ("multiprocessing",'DK',[]),
 ("<b>Project Presentations</b>",'',[]),
 ("<b>Project Presentations</b>",'',[]),
-("<b>Movie and Pizza Party?</b>",'',[])]
+("<b>Project Presentations</b> (if needed)",'',[]),
+("<b>Project Presentations</b> (if needed)",'',[])
+]
 
 print ('''
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
