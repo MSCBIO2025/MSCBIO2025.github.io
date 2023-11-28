@@ -7861,7 +7861,8 @@ $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Backpropagation">Backpropagation<a class="anchor-link" href="#Backpropagation">¶</a></h3><p>Backpropagation is an efficient algorithm for computing the partial derivatives needed by the gradient descent update rule.  For a training example $x$ and loss function $L$ in a network with $N$ layers:</p>
+<h2 id="Backpropagation">Backpropagation<a class="anchor-link" href="#Backpropagation">¶</a></h2><font size="3">
+<p>Backpropagation is an efficient algorithm for computing the partial derivatives needed by the gradient descent update rule.  For a training example $x$ and loss function $L$ in a network with $N$ layers:</p>
 <ol>
 <li><p><strong>Feedforward</strong>.  For each layer $l$ compute
 $$a^{l} = \sigma(z^{l})$$
@@ -7876,9 +7877,10 @@ $$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot
   \sigma'(z^{l})$$</p>
 </li>
 <li><p><strong>Calculate gradients</strong>
-$$\frac{\partial L}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j \text{ and } \frac{\partial L}{\partial b^l_j} = \delta^l_j$$</p>
-</li>
-</ol>
+$$\frac{\partial L}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j \text{ and } \frac{\partial L}{\partial b^l_j} = \delta^l_j$$
+</p></li></ol></font>
+
+
 </div>
 </div>
 </div>
