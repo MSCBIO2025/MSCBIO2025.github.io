@@ -36,7 +36,7 @@ lectures = [
 ("Process Control with <a href='https://docs.python.org/3/library/subprocess.html'>subprocess</a>",'DK',['subprocess']),
 ("Bioimaging I",'SU',['bioimaging']),
 ("Bioimaging II",'SU',['bioimaging2']),
-("Deep Learning",'SU',[]),
+("Deep Learning",'SU',['deeplearning']),
 ("multiprocessing",'DK',[]),
 ("<b>Project Presentations</b>",'',[]),
 ("<b>Project Presentations</b>",'',[]),
