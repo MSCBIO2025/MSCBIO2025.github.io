@@ -40,8 +40,7 @@ lectures = [
 ("multiprocessing",'DK',[]),
 ("<b>Project Presentations</b>",'',[]),
 ("<b>Project Presentations</b>",'',[]),
-("<b>Project Presentations</b> (if needed)",'',[]),
-("<b>Project Presentations</b> (if needed)",'',[])
+("<b>Movie and Pizza",'',[])
 ]
 
 print ('''
