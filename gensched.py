@@ -37,7 +37,7 @@ lectures = [
 ("Bioimaging I",'SU',['bioimaging']),
 ("Bioimaging II",'SU',['bioimaging2']),
 ("Deep Learning",'SU',['deeplearning']),
-("multiprocessing",'DK',[]),
+("multiprocessing",'DK',['multiprocessing']),
 ("<b>Project Presentations</b>",'',[]),
 ("<b>Project Presentations</b>",'',[]),
 ("<b>Movie and Pizza",'',[])
